@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/style.css">
+  <title>Document</title>
+</head>
+
+<body>
+  <section class="section-rating">
+    <div class="container">
+      <div class="text-box">
+        <span class="icon"></span>
+        <h3 class="heading">How did we do?</h3>
+        <p class="text">Please let us know how we did with your support request. All feedback is appreciated to help us
+          improve our offering!</p>
+      </div>
+      <div class="rate-box">
+        <ul class="rates-row">
+          <li class="rate" onclick="myRate(1)">1</li>
+          <li class=" rate" onclick="myRate(2)">2</li>
+          <li class=" rate" onclick="myRate(3)">3</li>
+          <li class=" rate" onclick="myRate(4)">4</li>
+          <li class=" rate" onclick="myRate(5)">5</li>
+        </ul>
+        <button class=" sub-btn">SUBMIT</button>
+      </div>
+    </div>
+  </section>
+  <section class="section-thank-you hidden">
+    <div class="container">
+      <div class="text-box center">
+        <img src="/img/illustration-thank-you.svg" alt="" class="img">
+        <span class="selected-text">You selected <span class="selected-rate">4</span> out of 5</span>
+        <h3 class="heading">Thank you!</h3>
+        <p class="text">We appreciate you taking the time to give a rating. If you ever need more support, don't
+          hesitate to get in touch!</p>
+      </div>
+    </div>
+  </section>
+  <script src="script.js"></script>
+</body>
+
+</html>
